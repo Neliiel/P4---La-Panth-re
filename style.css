@@ -31,6 +31,10 @@ a:hover {
     text-align: center;
 }
 
+#bloc-6 {
+    text-align: center;
+}
+
 .bloc {
     clear: both;
     background: 50% 50% no-repeat;
@@ -96,6 +100,14 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-white {
+    color: white;
 }
 
 .b-parallax {
@@ -683,10 +695,6 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
-}
-
-.container {
-    max-width: 1000px;
 }
 
 .hero-bloc-text {
