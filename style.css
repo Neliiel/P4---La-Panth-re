@@ -732,7 +732,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -1078,6 +1078,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .row-no-gutters {
+        display: flex;
+        flex-direction: column;
     }
 }
 
