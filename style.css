@@ -398,6 +398,7 @@ a:hover {
 }
 
 .opinion {
+    padding-top: 40px;
     font-style: italic;
     font-size: 16px;
 }
@@ -1099,10 +1100,10 @@ h4 {
     }
 
     .sr-only {
-        display: none;
+        display: block;
     }
     
     #nav-toggle {
-        display: none;
+        display: block;
     }
 }
